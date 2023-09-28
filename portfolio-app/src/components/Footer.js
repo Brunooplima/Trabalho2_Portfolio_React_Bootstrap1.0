@@ -1,9 +1,12 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div>
-      <p>Footer</p>
+      <footer>
+        <p>Bruno Lima &copy; 2023</p>
+      </footer>
     </div>
   );
 };

@@ -1,0 +1,26 @@
+.Projects {
+  border-radius: 16px;
+  cursor: pointer;
+  width: 340px;
+  height: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#333, #333);
+  transition: all 0.5s;
+  margin: 5%;
+}
+
+.Projects:hover {
+  background-image: linear-gradient(#00abf0, #ca0789);
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
