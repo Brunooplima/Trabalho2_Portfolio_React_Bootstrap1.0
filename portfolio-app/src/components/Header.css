@@ -1,0 +1,34 @@
+:root {
+  --primary-with: #ffff;
+  --blue-light: #00abf0;
+  --primary-black: black;
+}
+
+/******************* NAVBAR *****************/
+
+/*---------- MENU LINK -----------------*/
+
+nav a.nav-link {
+  letter-spacing: 0.035rem;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  margin-left: 10px;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-black);
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.navbar-nav > li :hover {
+  color: var(--blue-light);
+}
