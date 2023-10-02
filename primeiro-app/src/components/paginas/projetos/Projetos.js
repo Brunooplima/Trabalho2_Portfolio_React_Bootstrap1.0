@@ -1,9 +1,7 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import "./Projects.css";
+import { Button, Card } from "react-bootstrap";
+import "./Projetos.css";
 
-function Projects() {
+function Projetos() {
   return (
     <div className="Cards">
       <div className="Projects">
@@ -47,4 +45,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projetos;
