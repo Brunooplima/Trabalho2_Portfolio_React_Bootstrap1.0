@@ -1,8 +1,8 @@
 .foter {
   display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
+  margin-top: 50px;
 }
 
 .foter::before {
@@ -15,4 +15,10 @@
   background: #081b29;
   animation: showRight 2s ease forwards;
   animation-delay: 1s;
+}
+
+.espaco-copy {
+  margin: 20px;
+  justify-content: center;
+  margin-right: 200px;
 }

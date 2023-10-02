@@ -1,0 +1,11 @@
+.home-sci {
+  position: relative;
+  bottom: 40px;
+  width: 200px;
+  display: flex;
+}
+
+.contatos {
+  margin: 200px;
+  text-align: center;
+}

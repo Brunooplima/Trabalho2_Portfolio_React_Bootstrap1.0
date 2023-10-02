@@ -1,28 +1,43 @@
 import React from "react";
 
 const parcerios = () => {
-  <section class="home" id="clientes">
-    <div class="home-content">
-      <div class="row">
-        <div class="card1">
-          <img
-            class="images"
-            src="logo_sedese.jpg"
-            width="350px"
-            height="200px"
-          />
-        </div>
+  <div classNameName="parceiros">
+    <section className="home" id="clientes">
+      <div className="home-content">
+        <div className="row">
+          <div className="card1">
+            <img
+              className="images"
+              src="logo_sedese.jpg"
+              width="350px"
+              height="200px"
+              alt="foto1"
+            />
+          </div>
 
-        <div class="card2">
-          <img class="images" src="fiocruz.jpg" width="350px" height="200px" />
-        </div>
+          <div className="card2">
+            <img
+              className="images"
+              src="fiocruz.jpg"
+              width="350px"
+              height="200px"
+              alt="foto2"
+            />
+          </div>
 
-        <div class="card3">
-          <img class="images" src="petit.png" width="350px" height="200px" />
+          <div className="card3">
+            <img
+              className="images"
+              src="petit.png"
+              width="350px"
+              height="200px"
+              alt="foto3"
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>;
+    </section>
+  </div>;
 };
 
 export default parcerios;
