@@ -5,6 +5,7 @@ import Home from "./components/paginas/home/Home";
 import Projetos from "./components/paginas/projetos/Projetos";
 import Contatos from "./components/paginas/contatos/Contatos";
 import "./index.css";
+import Parceiros from "./components/paginas/parceiros/Parceiros";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
           <Route exact path="/projetos" element={<Projetos />} />
 
-          <Route exact path="/projetos" element={<Projetos />} />
+          <Route exact path="/parceiros" element={<Parceiros />} />
 
           <Route exact path="/contatos" element={<Contatos />} />
         </Routes>

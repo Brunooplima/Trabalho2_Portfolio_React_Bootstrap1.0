@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
       <div className="letras">
-        <a>
+        <a className="letras-a">
           <Navbar bg="#" data-bs-theme="dark">
             <Container>
               <Navbar.Brand href="/home">Bruno Lima</Navbar.Brand>
@@ -20,8 +20,7 @@ function Header() {
                   Projetos
                 </Nav.Link>
                 <Nav.Link as={Link} to="/parceiros">
-                  {" "}
-                  Parceiros{" "}
+                  Parceiros
                 </Nav.Link>
                 <Nav.Link as={Link} to="/contatos">
                   Contatos

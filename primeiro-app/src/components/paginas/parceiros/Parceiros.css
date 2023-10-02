@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images {
+  position: relative;
+  border: solid #00abf0;
+  border-radius: 1%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  margin-right: 10px;
+}
+
+.parceiros {
+  margin: 150px;
+  text-align: center;
+}
+
+.letras-a {
+  margin-top: 50px;
+}
