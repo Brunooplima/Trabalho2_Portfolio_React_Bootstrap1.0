@@ -1,5 +1,9 @@
 /*--------------Página de Projetos--------------*/
 
+.content {
+  color: aliceblue;
+}
+
 .cards {
   display: flex;
   align-items: center;
@@ -8,7 +12,7 @@
 }
 
 .card {
-  margin-top: 25%;
+  margin-top: 10%;
   border-radius: 16px;
   cursor: pointer;
   width: 360px;
@@ -40,6 +44,7 @@
   z-index: 2;
   position: relative;
   opacity: 0.8;
+  background-image: url(./siteICBE.png);
 }
 
 .card .img1 span {
@@ -73,6 +78,7 @@
   z-index: 2;
   position: relative;
   opacity: 0.8;
+  background-image: url(./sandbox.jpg);
 }
 
 .card .img2 span {
@@ -132,6 +138,7 @@
   padding: 15px;
   transform: rotate(-180deg);
   transition: all 0.5s;
+  color: aliceblue;
 }
 
 .card:hover .arrow {
